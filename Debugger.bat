@@ -33,7 +33,8 @@ echo Welcome to Tactics Debugger menu!
 ::: / / /       \/       \ \ \  [____>   <____]
 
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-
+echo Current Date: %date%
+echo Current Time: %time%
 echo.
 echo Debugging Menu:
 echo 1. Visual Studio Debug
